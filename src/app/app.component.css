@@ -1,0 +1,89 @@
+.container {
+    background-image: url('../assets/20170990_v1053-023.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; /* Add this line to remove default margin */
+    padding: 0; /* Add this line to remove default padding */
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.profile-pic {
+    background-image: url('../assets/pfp-maker.png');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #666;
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.skills h3, .about h3 {
+    margin: 0;
+}
+
+.skills h3 {
+    font-size: 24px;
+}
+
+.about h3 {
+    font-size: 24px;
+}
+
+.about p {
+    font-size: 16px;
+}
